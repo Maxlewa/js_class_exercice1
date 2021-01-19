@@ -55,8 +55,8 @@ class Lieux {
 }
 
 let maison = new Lieux('maison', '')
-let epicerie = new Lieux('epicerie', '', '')
-let cuisine = new Lieux('cuisine', '', '')
+let epicerie = new Lieux('epicerie', [], [])
+let cuisine = new Lieux('cuisine', [], [])
 
 class Ingrediens {
     constructor (nom, etat, prix) {
@@ -120,5 +120,5 @@ class Peronnage {
     }
 }
 
-let alex = new Personnage 
-let louise = new Personnage 
+let alex = new Personnage('alex', ) 
+let louise = new Personnage('louise')
